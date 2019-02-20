@@ -10,7 +10,7 @@ extern class DocumentSnapshot {
 	public final readTime:Timestamp;
 	public final ref:DocumentSnapshot;
 	public final updateTime:Null<Timestamp>;
-	public function data ():Null<Dynamic>;
-	public function field (field:EitherType<String, FieldPath>):Dynamic;
-	public function isEqual (other:Any):Bool;
+	public function data():Null<Dynamic>;
+	public function field(field:EitherType<String, FieldPath>):Dynamic;
+	public function isEqual(other:Any):Bool;
 }

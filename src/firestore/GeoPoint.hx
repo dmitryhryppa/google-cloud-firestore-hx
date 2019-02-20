@@ -4,7 +4,7 @@ package firestore;
 extern class GeoPoint {
 	public final latitude:Float;
 	public final longitude:Float;
-	public function new (latitude:Float, longitude:Float);
-	public function isEqual (other:GeoPoint):Bool;
-	public function toString ():String;
+	public function new(latitude:Float, longitude:Float);
+	public function isEqual(other:GeoPoint):Bool;
+	public function toString():String;
 }

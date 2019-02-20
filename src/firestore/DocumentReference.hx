@@ -18,5 +18,5 @@ extern class DocumentReference {
 	public function update(dataOrField:Either<Dynamic, String, FieldPath>):Promise<Void>;
 }
 
-private abstract Either<T1, T2, T3>(Any) from T1 to T1 from T2 to T2 from T3 to T3 {
+private abstract Either<T1, T2, T3>(Dynamic) from T1 to T1 from T2 to T2 from T3 to T3 {
 }
