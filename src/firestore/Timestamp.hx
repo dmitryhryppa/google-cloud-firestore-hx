@@ -1,6 +1,6 @@
 package firestore;
 
-import js.Date;
+import js.lib.Date;
 
 @:jsRequire('@google-cloud/firestore', 'Timestamp')
 extern class Timestamp {
