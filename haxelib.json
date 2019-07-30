@@ -1,0 +1,17 @@
+{
+	"name": "firebase-admin-hx",
+	"url": "https://github.com/dmitryhryppa/googlecloud-firestore-hx",
+	"license": "MIT",
+	"tags": [
+		"firebase",
+		"firestore"
+	],
+	"description": "Externs for firestore Admin SDK (NodeJS)",
+	"version": "0.1.0",
+	"classPath": "src",
+	"releasenote": "WIP",
+	"contributors": [
+		"dmitryhryppa"
+	],
+	"dependencies": {}
+}
